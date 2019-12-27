@@ -1,0 +1,125 @@
+name: cekilismobil
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.2.1+21
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  sqflite: ^1.1.0
+  fluttertoast: ^3.0.4
+  progress_dialog: ^1.1.0+1
+  audioplayers: ^0.11.0
+  intl: ^0.15.8
+  google_sign_in: ^4.0.4
+  http: ^0.12.0+2
+  device_info: ^0.4.0+1
+  flutter_secure_storage: ^3.2.1+1
+  autocomplete_textfield: ^1.6.7
+  firebase_auth: ^0.14.0+5
+  firebase_analytics: ^5.0.2
+  connectivity: ^0.4.3+6
+  url_launcher: ^5.1.1
+  barcode_scan: ^1.0.0
+  firebase_admob: ^0.9.0+7
+  shake: ^0.1.0
+  flutter_datetime_picker: ^1.2.6
+  cached_network_image: ^1.1.2+1
+  ads: ^1.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  assets:
+    - assets/sound/countdown-effect.mp3
+    - assets/sound/ready-effect.mp3
+    - assets/sound/shuffle-effect.mp3
+    - assets/sound/vacuum-effect.mp3
+    - assets/sound/magic-effect.mp3
+    - assets/sound/games/dice/dice-1.mp3
+    - assets/sound/games/dice/dice-2.mp3
+    - assets/sound/games/dice/dice-3.mp3
+    - assets/sound/games/dice/dice-4.mp3
+    - assets/sound/games/dice/dice-5.mp3
+    - assets/sound/games/dice/dice-6.mp3
+    - assets/sound/games/dice/dice-7.mp3
+    - assets/sound/games/dice/dice-8.mp3
+    - assets/sound/games/dice/dice-9.mp3
+    - assets/sound/games/dice/dice-10.mp3
+    - assets/sound/games/dice/dice-11.mp3
+    - assets/sound/games/dice/dice-12.mp3
+    - assets/sound/games/dice/dice-13.mp3
+    - assets/images/noprofile.png
+    - assets/images/noimage.png
+    - assets/images/games/dice/diceloading.gif
+    - assets/images/games/dice/diceloading2.gif
+    - assets/images/games/dice/dice-1.png
+    - assets/images/games/dice/dice-2.png
+    - assets/images/games/dice/dice-3.png
+    - assets/images/games/dice/dice-4.png
+    - assets/images/games/dice/dice-5.png
+    - assets/images/games/dice/dice-6.png
+    - locale/i18n_en.json
+    - locale/i18n_tr.json
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
